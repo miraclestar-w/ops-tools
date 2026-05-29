@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Miracle</title>
+    <link>https://miraclestar-w.github.io</link>
+    <description>专注AI Agent、自动化运维、DevOps工具链的技术探索与实践</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://miraclestar-w.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic发布Claude Opus 4.8：AI模型再进化，开发者如何抓住新机遇</title>
+      <link>https://miraclestar-w.github.io/post/claude-opus-4-8/</link>
+      <description>Anthropic发布Claude Opus 4.8：AI模型再进化，开发者如何抓住新机遇</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/claude-opus-4-8/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>MCP生态全面爆发：Microsoft官方MCP Server发布，AI Agent工具链成熟</title>
+      <link>https://miraclestar-w.github.io/post/mcp-ecosystem/</link>
+      <description>MCP生态全面爆发：Microsoft官方MCP Server发布，AI Agent工具链成熟</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/mcp-ecosystem/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Karpathy的autoresearch：单GPU实现AI自动研究，开源前沿项目解析</title>
+      <link>https://miraclestar-w.github.io/post/karpathy-autoresearch/</link>
+      <description>Karpathy的autoresearch：单GPU实现AI自动研究，开源前沿项目解析</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/karpathy-autoresearch/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Proxmox+GitOps：用代码管理虚拟化基础设施的自动化框架</title>
+      <link>https://miraclestar-w.github.io/post/proxmox-gitops/</link>
+      <description>Proxmox+GitOps：用代码管理虚拟化基础设施的自动化框架</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/proxmox-gitops/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>从零构建AI DevOps工具链：免费课程AI Dev Tools Zoomcamp</title>
+      <link>https://miraclestar-w.github.io/post/ai-dev-tools-zoomcamp/</link>
+      <description>从零构建AI DevOps工具链：免费课程AI Dev Tools Zoomcamp</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/ai-dev-tools-zoomcamp/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Postgres不只是数据库：用PostgreSQL构建持久化工作流引擎</title>
+      <link>https://miraclestar-w.github.io/post/postgres-workflow/</link>
+      <description>Postgres不只是数据库：用PostgreSQL构建持久化工作流引擎</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/postgres-workflow/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>浏览器自动化新选择：vercel-labs/agent-browser让AI Agent操控浏览器</title>
+      <link>https://miraclestar-w.github.io/post/agent-browser-vercel/</link>
+      <description>浏览器自动化新选择：vercel-labs/agent-browser让AI Agent操控浏览器</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/agent-browser-vercel/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>RPA+AI Agent实战：讯飞astron-rpa让个人开发者也能做自动化</title>
+      <link>https://miraclestar-w.github.io/post/xunfei-astron-rpa/</link>
+      <description>RPA+AI Agent实战：讯飞astron-rpa让个人开发者也能做自动化</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/xunfei-astron-rpa/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>AI Agent权限疲劳：当Agent拥有太多自主权会怎样？</title>
+      <link>https://miraclestar-w.github.io/post/agent-permission-fatigue/</link>
+      <description>AI Agent权限疲劳：当Agent拥有太多自主权会怎样？</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/agent-permission-fatigue/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>自托管AI代理基础设施：moltis如何用Rust打造安全持久的个人Agent</title>
+      <link>https://miraclestar-w.github.io/post/moltis-rust-agent/</link>
+      <description>自托管AI代理基础设施：moltis如何用Rust打造安全持久的个人Agent</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/moltis-rust-agent/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Agent编排平台ruflo：Claude多Agent协作的最佳实践</title>
+      <link>https://miraclestar-w.github.io/post/ruflo-multi-agent/</link>
+      <description>Agent编排平台ruflo：Claude多Agent协作的最佳实践</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/ruflo-multi-agent/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Raspberry Pi 6来了：AI边缘计算的新硬件机遇</title>
+      <link>https://miraclestar-w.github.io/post/raspberry-pi-6-ai/</link>
+      <description>Raspberry Pi 6来了：AI边缘计算的新硬件机遇</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/raspberry-pi-6-ai/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>AI Agent自动化运维实践</title>
+      <link>https://miraclestar-w.github.io/post/ai-agent-ops-automation/</link>
+      <description>深入探讨AI Agent在服务器自动化运维中的实际应用，包括故障自愈、智能告警、自动化巡检等核心场景，帮助运维团队迈向AIOps。</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/ai-agent-ops-automation/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>服务器监控最佳实践</title>
+      <link>https://miraclestar-w.github.io/post/server-monitoring-best-practices/</link>
+      <description>全面介绍服务器监控体系的构建方法，涵盖Prometheus+Grafana监控栈搭建、告警规则设计、日志聚合和分布式追踪等关键实践。</description>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/server-monitoring-best-practices/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+    <item>
+      <title>Docker容器化部署指南</title>
+      <link>https://miraclestar-w.github.io/post/docker-containerization-guide/</link>
+      <description>从零开始掌握Docker容器化部署，包含Dockerfile编写最佳实践、多阶段构建、Docker Compose编排、生产环境安全加固等核心内容。</description>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://miraclestar-w.github.io/post/docker-containerization-guide/</guid>
+      <dc:creator>Miracle</dc:creator>
+    </item>
+  </channel>
+</rss>
