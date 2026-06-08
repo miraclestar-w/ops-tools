@@ -30,7 +30,7 @@ class ServerHealthChecker:
     
     def check_memory(self):
         """检查内存"""
-        out, _ = self.run_cmd("free | grep Mem | awk '{printf \"%.1f\", $3/$2 * 100}'")
+        out, _ = self.run_cmd("free | grep -iE 'mem|内存' | awk '{printf \"%.1f\", $3/$2 * 100}'")
         try:
             return float(out)
         except:
