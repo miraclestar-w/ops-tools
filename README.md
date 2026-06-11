@@ -18,6 +18,22 @@ python3 server-health-checker.py --json             # JSON输出
 python3 server-health-checker.py --json --quiet      # 静默+JSON（适合cron）
 ```
 
+### 🕵️ [log-hunter.py](log-hunter.py)
+运维日志分析利器 — 快速定位系统问题
+
+**功能：** 多格式日志解析(syslog/journald/nginx/docker)、级别过滤、关键词正则、时间范围、HTML报告
+
+```bash
+python3 log-hunter.py /var/log/syslog                      # 扫描系统日志
+python3 log-hunter.py /var/log/syslog --level ERROR        # 只看错误
+python3 log-hunter.py /var/log/syslog --since "1 hour ago" # 最近1小时
+python3 log-hunter.py /var/log/syslog -k "OOM|kill"        # 正则关键词
+python3 log-hunter.py --docker my-container                # Docker容器日志
+python3 log-hunter.py --journal -u nginx                   # journald日志
+python3 log-hunter.py /var/log/syslog --json               # JSON输出
+python3 log-hunter.py /var/log/syslog --html report.html   # HTML报告
+```
+
 ### 💰 [stablecoin-arbitrage-monitor.py](stablecoin-arbitrage-monitor.py)
 稳定币价差监控 + Web看板
 
@@ -41,11 +57,14 @@ python3 stablecoin-arbitrage-monitor.py --csv-history          # CSV历史记录
 git clone https://github.com/miraclestar-w/ops-tools.git
 cd ops-tools
 
-# 安装依赖
+# 安装依赖（日志猎手零依赖，其他工具需要）
 pip install requests flask psutil
 
 # 运行服务器巡检
 python3 server-health-checker.py
+
+# 分析系统日志
+python3 log-hunter.py /var/log/syslog --level ERROR
 
 # 启动价差监控
 python3 stablecoin-arbitrage-monitor.py
@@ -57,6 +76,12 @@ python3 stablecoin-arbitrage-monitor.py
 ```bash
 # 每小时检查一次
 0 * * * * cd /root/ops-tools && python3 server-health-checker.py --json --quiet -o /var/log/server-health.json
+```
+
+### 日志分析 (定时审计)
+```bash
+# 每天9点生成前一天的错误报告
+0 9 * * * cd /root/ops-tools && python3 log-hunter.py /var/log/syslog --level ERROR --since "24 hours ago" --html /var/log/daily-report-$(date +\%F).html
 ```
 
 ### 价差监控 (systemd)
